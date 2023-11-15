@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="something" />
+		<meta name="author" content="me" />
+
+		<title>My First HTML Page</title>
+		<script>
+			function sayHello() {
+				alert("Hi, Visitor!");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Welcome to My First HTML Page</h1>
+		<p>This is a simple HTML page that uses different HTML tags.</p>
+		<hr />
+		<h2>Table of Contents</h2>
+		<ol>
+			<li><a href="#section1">Section 1</a></li>
+			<li><a href="#section2">Section 2</a></li>
+		</ol>
+		<hr />
+		<div id="section1">
+			<h2>Section 1</h2>
+			<img src="http://placekitten.com/500/300" alt="Sample image" />
+		</div>
+		<div id="section2">
+			<h2>Section 2</h2>
+			<p>This is a sample paragraph within a div.</p>
+		</div>
+
+		<h2>An Unordered List Example:</h2>
+		<ul>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+		</ul>
+
+		<h2>A Table Example:</h2>
+		<table>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+			</tr>
+		</table>
+
+		<h2>A Form Example:</h2>
+		<form action="#">
+			<label for="fname">First name:</label><br />
+			<input type="text" id="fname" name="fname" required /><br />
+			<label for="lname">Last name:</label><br />
+			<input type="text" id="lname" name="lname" /><br /><br />
+			<button type="button" onclick="sayHello()">Submit</button>
+		</form>
+
+		<h2>Code Example</h2>
+		<p>You can have code <code>inline</code> or as a block</p>
+		<pre>
+        <code>
+            function sayHello() {
+                alert("Hi, Visitor!");
+            }
+        </code>
+    </pre>
+	</body>
+</html>
